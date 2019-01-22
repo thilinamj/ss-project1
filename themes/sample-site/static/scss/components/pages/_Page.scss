@@ -35,35 +35,45 @@
 
 $hero-height: 60vh;
 
-.hero{
-  background-image:url("/themes/sample-site/static/images/cms/hero/hero1.jpg");
+.hero {
+  background-image: url("/themes/sample-site/static/images/cms/hero/hero1.jpg");
   background-size: cover;
   height: $hero-height;
   display: flex;
   justify-content: center;
 
 
-
   .hero-section-text {
     color: $white;
     text-shadow: 1px 1px 2px $black;
   }
-}
 
 
-.heroend{
-  background-color: #0071bb;
+  &_end {
+    background-color: #0071bb;
 
-  p{
-    color: #ffffff;
+    p {
+      color: #ffffff;
+      font-family: Arial Regular;
+
+    }
+
+    a {
+      color: #ffffff;
+    }
+
+    .button.hollow {
+      border-color: #ffffff;
+      color:#ffffff;
+      font-family: Arial Regular;
+    }
+
   }
 
-  a{
-    color:#ffffff;
-  }
-
+.signmeup_button{
+  color: #ffffff;
+  background-color: #e6822b;
+  font-family: Arial Regular;
 }
 
-.signup_button{
-  color:#e6822b;
 }
