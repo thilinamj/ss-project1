@@ -1,0 +1,96 @@
+//.hero {
+//  position: relative;
+//  min-height: 550px;
+//  overflow: hidden;
+//
+//  .grid-container {
+//    position: relative;
+//    padding-right: 0;
+//    padding-left: 0;
+//  }
+//
+//  &__slider {
+//
+//    .hero-slide {
+//      position: relative;
+//      z-index: 1 !important;
+//      overflow: hidden;
+//
+//      &-image {
+//        position: absolute;
+//        left: 0;
+//        top: 0;
+//        width: 100%;
+//        height: 100%;
+//        background-size: cover;
+//        background-repeat: no-repeat;
+//        background-position: center;
+//        z-index: 0;
+//      }
+//
+//      &-content {
+//        position: relative;
+//        height: 100%;
+//        color: $black;
+//        padding-top: 40px;
+//
+//        .grid-container {
+//          width: 100%;
+//        }
+//
+//        h3 {
+//          color: $black;
+//          font-weight: bold;
+//          font-size: 37px;
+//          text-transform: uppercase;
+//        }
+//
+//        p {
+//          color: $white;
+//          font-size: 18px;
+//          font-weight: 600;
+//        }
+//      }
+//    }
+//
+//    .slick-track,
+//    .hero-slide {
+//      min-height: 550px;
+//    }
+//
+//    .slick-slide {
+//      position: relative;
+//
+//      //&:before {
+//      //  position: absolute;
+//      //  left: 0;
+//      //  top: 0;
+//      //  width: 100%;
+//      //  height: 100%;
+//      //  background: rgba(255,255,255,.6);
+//      //  z-index: 9;
+//      //  content: ' ';
+//      //}
+//    }
+//
+//    .slick-active {
+//      &:before {
+//        display: none;
+//      }
+//    }
+//
+//    &__arrows {
+//      position: absolute;
+//      bottom: 0;
+//      width: 100%;
+//      height: 34px;
+//    }
+//  }
+//
+//  @include breakpoint(large) {
+//
+//  }
+//}
+//
+//
+//

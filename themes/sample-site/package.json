@@ -1,0 +1,70 @@
+{
+  "name": "foundation-sites-template",
+  "version": "1.0.0",
+  "description": "Basic template for a new Foundation for Sites project.",
+  "main": "gulpfile.js",
+  "babel": {
+    "presets": [
+      [
+        "env",
+        {
+          "targets": {
+            "browsers": [
+              "last 2 versions"
+            ]
+          }
+        }
+      ]
+    ]
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^8.2.3",
+    "babel-preset-env": "^1.7.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.8.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-babel": "^7.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-eslint": "^4.0.2",
+    "gulp-inject-string": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.6.1",
+    "gulp-sass": "^3.2.1",
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-stylelint": "^3.9.0",
+    "gulp-uglify": "^3.0.0",
+    "natives": "^1.1.6",
+    "stylelint": "^7.10.1",
+    "stylelint-config-standard": "^16.0.0",
+    "webpack-stream": "^4.0.3"
+  },
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp sass"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zurb/foundation-sites-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zurb/foundation-sites/issues",
+    "email": "foundation@zurb.com"
+  },
+  "author": "ZURB <foundation@zurb.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "blazy": "^1.8.2",
+    "bloodhound-js": "^1.2.2",
+    "foundation-sites": "^6.4.4-rc1",
+    "infinite-scroll": "^3.0.2",
+    "magnific-popup": "^1.1.0",
+    "motion-ui": "^1.2.3",
+    "slick-carousel": "^1.8.1",
+    "typeahead": "^0.2.2"
+  }
+}
