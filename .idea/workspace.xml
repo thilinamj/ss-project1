@@ -1,27 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1c699e53-0b58-4272-8d01-45a30ca147c6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/sample-site/static/dist/app.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/sample-site/static/dist/app.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/sample-site/static/images/cms/._cmp.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/sample-site/static/images/cms/._cmr.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/sample-site/static/images/cms/._fb.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/sample-site/static/images/cms/._lnk.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/sample-site/static/images/cms/._logo1.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/sample-site/static/images/cms/._logo1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/sample-site/static/images/cms/._mg.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/sample-site/static/images/cms/._twet.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/sample-site/static/scss/_settings.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/sample-site/static/scss/_settings.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/sample-site/static/scss/components/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/sample-site/static/scss/components/_footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/sample-site/static/scss/components/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/sample-site/static/scss/components/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/sample-site/static/scss/components/elements/_hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/sample-site/static/scss/components/elements/_hero.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/sample-site/static/scss/components/pages/_Page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/sample-site/static/scss/components/pages/_Page.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/sample-site/static/sourcemaps/app.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/themes/sample-site/static/sourcemaps/app.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/sample-site/templates/Includes/CriticalCSS.ss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/sample-site/templates/Includes/CriticalCSS.ss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/sample-site/templates/Includes/Footer.ss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/sample-site/templates/Includes/Footer.ss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/sample-site/templates/Layout/Page.ss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/sample-site/templates/Layout/Page.ss" afterDir="false" />
-    </list>
+    <list default="true" id="1c699e53-0b58-4272-8d01-45a30ca147c6" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,8 +71,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/sample-site/static/scss/components/elements/_hero.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="112" column="21" lean-forward="true" selection-start-line="112" selection-start-column="21" selection-end-line="112" selection-end-column="21" />
+            <state relative-caret-position="385">
+              <caret line="123" column="8" lean-forward="true" selection-start-line="123" selection-start-column="8" selection-end-line="123" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -143,7 +123,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/themes/sample-site" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -235,7 +215,7 @@
       <path value="$PROJECT_DIR$/vendor/symfony/cache" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="653" />
     <option name="y" value="44" />
     <option name="width" value="1500" />
@@ -372,12 +352,12 @@
       <workItem from="1548136661829" duration="9631000" />
       <workItem from="1548148643730" duration="9920000" />
       <workItem from="1548212939385" duration="21598000" />
-      <workItem from="1548236714005" duration="3105000" />
+      <workItem from="1548236714005" duration="3440000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46147000" />
+    <option name="totallyTimeSpent" value="46482000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -390,9 +370,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1472" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1472" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -405,7 +384,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32936078" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.37378114" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.21776815" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Scheme.REPL" order="0" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
@@ -541,8 +520,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/sample-site/static/scss/components/elements/_hero.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="112" column="21" lean-forward="true" selection-start-line="112" selection-start-column="21" selection-end-line="112" selection-end-column="21" />
+        <state relative-caret-position="385">
+          <caret line="123" column="8" lean-forward="true" selection-start-line="123" selection-start-column="8" selection-end-line="123" selection-end-column="8" />
         </state>
       </provider>
     </entry>
