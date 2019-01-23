@@ -33,47 +33,127 @@
 ////}
 
 
-$hero-height: 60vh;
+//$hero-height: 60vh;
+//
+//.hero {
+//  background-image: url("/themes/sample-site/static/images/cms/hero/hero1.jpg");
+//  background-size: cover;
+//  height: $hero-height;
+//  display: flex;
+//  justify-content: center;
+//
+//
+//  .hero-section-text {
+//    color: $white;
+//    text-shadow: 1px 1px 2px $black;
+//  }
+//
+//
+//  &_end {
+//    background-color: #0071bb;
+//
+//    p {
+//      color: #ffffff;
+//      font-family: Arial Regular;
+//
+//    }
+//
+//    a {
+//      color: #ffffff;
+//    }
+//
+//    .button.hollow {
+//      border-color: #ffffff;
+//      color:#ffffff;
+//      font-family: Arial Regular;
+//    }
+//
+//  }
+//
+//.signmeup_button{
+//  color: #ffffff;
+//  background-color: #e6822b;
+//  font-family: Arial Regular;
+//}
+//
+//}
 
-.hero {
-  background-image: url("/themes/sample-site/static/images/cms/hero/hero1.jpg");
-  background-size: cover;
-  height: $hero-height;
-  display: flex;
-  justify-content: center;
 
 
-  .hero-section-text {
-    color: $white;
-    text-shadow: 1px 1px 2px $black;
+.signup{
+
+  background-color: #e6822b;
+  width: 100%;
+  border-radius: 8px;
+
+}
+
+.contact {
+  min-hight: 20px;
+  background-color: #0071bb;
+
+
+  &__email-button {
+    border: 2px solid #dbe2e6;
+    color: #bedbef;
+
   }
 
+  &__signup-button {
+    background-color: #e6822b;
+    width: 100%;
+    border-radius: 8px;
+  }
 
-  &_end {
-    background-color: #0071bb;
+  &__section {
+    padding-top: 10px;
 
     p {
-      color: #ffffff;
-      font-family: Arial Regular;
+      color: white;
 
-    }
-
-    a {
-      color: #ffffff;
-    }
-
-    .button.hollow {
-      border-color: #ffffff;
-      color:#ffffff;
-      font-family: Arial Regular;
     }
 
   }
-
-.signmeup_button{
-  color: #ffffff;
-  background-color: #e6822b;
-  font-family: Arial Regular;
 }
+
+/////////////////////////////////////////////
+
+.topblock{
+margin-top: 50px;
+margin-bottom: 50px;
+}
+
+////////////////////////////////////////////////
+
+.ads{
+margin-bottom:50px;
+
+}
+
+.bottomblock{
+  background-color: #0071bb;
+
+
+  h1 {
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 26.5pt;
+    padding-top: 50px;
+
+
+  }
+
+  p {
+    font-family: Arial bold;
+    color: #ffffff;
+    font-size: 15pt;
+  }
+
+
+  &__signup{
+    background-color: #e6822b;
+    border-radius: 8px;
+    width:200px;
+  }
 
 }

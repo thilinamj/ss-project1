@@ -1,26 +1,41 @@
 .footer{
-  font-size: 5px;
+  font-size: 8pt;
   text-align: center;
-  padding-top: 0px;
+  padding-top: 15px;
 
   &__logo{
     img{
       //padding-top: 10px;
-      padding-right: 2px;
+        padding-right: 2px;
       //padding-left: 5px;
+      height: 10px;
+    }
+  }
+
+  &__left{
+    a{
+      color: black;
+      padding-left: 10px;
+      padding-bottom: 10px;
     }
   }
 }
 
-@include breakpoint(medium){
-  .footer{
-    font-size:10px;
 
-    &__logo{
-      img{
-        padding-right: 10px;
-        padding-left:10px;
-      }
-    }
-  }
-}
+
+
+
+
+
+//@include breakpoint(medium){
+//  .footer{
+//    font-size:10px;
+//
+//    &__logo{
+//      img{
+//        padding-right: 10px;
+//        padding-left:10px;
+//      }
+//    }
+//  }
+//}
