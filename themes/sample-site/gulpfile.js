@@ -40,6 +40,7 @@ var foundationJS = [
     'node_modules/foundation-sites/dist/js/plugins/foundation.dropdown.js',
     'node_modules/foundation-sites/dist/js/plugins/foundation.drilldown.js',
     'node_modules/foundation-sites/dist/js/plugins/foundation.dropdown.js',
+    'ode_modules/foundation-sites/js/foundation.dropdownMenu.js',
     'static/js/foundation.js',
 ];
 

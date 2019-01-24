@@ -1,103 +1,8 @@
-//.hero {
-//  position: relative;
-//  min-height: 550px;
-//  overflow: hidden;
-//
-//  .grid-container {
-//    position: relative;
-//    padding-right: 0;
-//    padding-left: 0;
-//  }
-//
-//  &__slider {
-//
-//    .hero-slide {
-//      position: relative;
-//      z-index: 1 !important;
-//      overflow: hidden;
-//
-//      &-image {
-//        position: absolute;
-//        left: 0;
-//        top: 0;
-//        width: 100%;
-//        height: 100%;
-//        background-size: cover;
-//        background-repeat: no-repeat;
-//        background-position: center;
-//        z-index: 0;
-//      }
-//
-//      &-content {
-//        position: relative;
-//        height: 100%;
-//        color: $black;
-//        padding-top: 40px;
-//
-//        .grid-container {
-//          width: 100%;
-//        }
-//
-//        h3 {
-//          color: $black;
-//          font-weight: bold;
-//          font-size: 37px;
-//          text-transform: uppercase;
-//        }
-//
-//        p {
-//          color: $white;
-//          font-size: 18px;
-//          font-weight: 600;
-//        }
-//      }
-//    }
-//
-//    .slick-track,
-//    .hero-slide {
-//      min-height: 550px;
-//    }
-//
-//    .slick-slide {
-//      position: relative;
-//
-//      //&:before {
-//      //  position: absolute;
-//      //  left: 0;
-//      //  top: 0;
-//      //  width: 100%;
-//      //  height: 100%;
-//      //  background: rgba(255,255,255,.6);
-//      //  z-index: 9;
-//      //  content: ' ';
-//      //}
-//    }
-//
-//    .slick-active {
-//      &:before {
-//        display: none;
-//      }
-//    }
-//
-//    &__arrows {
-//      position: absolute;
-//      bottom: 0;
-//      width: 100%;
-//      height: 34px;
-//    }
-//  }
-//
-//  @include breakpoint(large) {
-//
-//  }
-//}
-//
 
 .hero {
   position: relative;
   min-height: 500px;
   overflow: hidden;
-
 
   &__image {
     position: absolute;
@@ -115,32 +20,81 @@
     align-items: center;
     justify-content: center;
     height: 500px;
-    width: 100%;
-
+    text-align: center;
+    //width: 100%;
   }
 
   &__text {
+    text-align: center;
+    margin-bottom: -100px;
 
     h1 {
-      font-family: Arial Bold;
+      font-family: Arial;
       color: #ffffff;
-      font-size: 26.5pt;
-
+      font-size: 30px;
 
     }
 
     p {
-      font-family: Arial Regular;
+      font-family: Arial;
       color: #ffffff;
-      font-size: 15pt;
+      // font-size: 10pt;
     }
 
     h5 {
-      font-family: Arial Bold;
+      font-family: Arial;
       color: #ffffff;
-      font-size: 15pt;
+      // font-size:14pt;
+    }
+  }
+
+  &__video {
+    align-items: center;
+    position: relative;
+
+    iframe {
+      height: 170px;
+      width: 70%;
+    }
+  }
+
+  @include breakpoint(medium) {
+
+
+    .hero__text {
+      text-align: left;
+
+      h1 {
+        font-family: Arial;
+        color: #ffffff;
+        font-size: 40px;
+      }
+
+      p {
+        font-family: Arial Regular;
+        color: #ffffff;
+        // font-size: 15pt;
+      }
+
+      h5 {
+        font-family: Arial;
+        color: #ffffff;
+        // font-size:14pt;
+      }
+    }
+
+    .hero__video {
+
+
+      iframe {
+        height: 300px;
+        width: 100%;
+      }
     }
   }
 
 }
+
+
+
 

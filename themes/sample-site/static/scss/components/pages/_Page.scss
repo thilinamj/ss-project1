@@ -93,9 +93,10 @@
   background-color: #0071bb;
 
 
-  &__email-button {
-    border: 2px solid #dbe2e6;
-    color: #bedbef;
+  &__text {
+    width: 80%;
+    background-color: transparent;
+
 
   }
 
@@ -105,33 +106,81 @@
     border-radius: 8px;
   }
 
-  &__section {
-    padding-top: 10px;
 
-    p {
+  &__section {
+    padding-top: 20px;
+
+    p.text {
       color: white;
+      font-size: 18px;
+    }
+
+    p.terms-section {
+      color: white;
+      font-size: 10px;
+
 
     }
 
+    .termlink {
+      text-decoration: underline;
+
+    }
+
+
+  }
+
+
+  @include breakpoint(medium) {
+    &__section {
+      p.terms-section {
+        color: white;
+        font-size: 14px;
+
+
+      }
+
+    }
+  }
+
+}
+
+
+//top-block section style-------------------------------------------------------------------------------
+
+
+
+.top-block {
+  margin-top: 30px;
+  margin-bottom: -30px;
+  text-align: center;
+
+  .top-bar__link{
+    color: #0071bb;
+    text-decoration: underline;
+  }
+
+  @include breakpoint(medium) {
+
+    h1 {
+      font-size: 24pt;
+    }
   }
 }
 
-/////////////////////////////////////////////
+//middle -block section style-------------------------------------------------------------------------------
 
-.topblock{
-margin-top: 50px;
-margin-bottom: 50px;
-}
-
-////////////////////////////////////////////////
-
-.ads{
-margin-bottom:50px;
+.middle-block {
+  align-items: center;
+  text-align: center;
 
 }
 
-.bottomblock{
+//bottom-block section style-------------------------------------------------------------------------------
+
+.bottom-block{
   background-color: #0071bb;
+  text-align: center;
 
 
   h1 {
@@ -144,9 +193,9 @@ margin-bottom:50px;
   }
 
   p {
-    font-family: Arial bold;
+    //font-family: Arial bold;
     color: #ffffff;
-    font-size: 15pt;
+    //font-size: 15pt;
   }
 
 
