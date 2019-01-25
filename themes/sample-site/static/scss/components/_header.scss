@@ -1,140 +1,74 @@
-//.header {
-//  position: relative;
-//  width: 100%;
-//  left: 0;
-//  top: 0;
-//  z-index: 1;
-//
-//  &__nav-container {
-//
-//  }
-//
-//  &__nav {
-//    justify-content: space-between;
-//    align-items: center;
-//    min-height: 80px;
-//  }
-//
-//  &__hamburger {
-//    width: 34px;
-//    height: 27px;
-//    display: block;
-//    position: relative;
-//
-//    .line {
-//      display: block;
-//      background: get-color('primary');
-//      height: 5px;
-//      width: 100%;
-//      border-radius: 2px;
-//      position: absolute;
-//      left: 0;
-//      top: 0;
-//    }
-//
-//    .line-2 {
-//      top: 10px;
-//    }
-//
-//    .line-3 {
-//      top: 20px;
-//    }
-//  }
-//
-//  &__menu {
-//    display: none;
-//  }
-//
-//  @include breakpoint(large) {
-//
-//    &__hamburger {
-//      display: none;
-//    }
-//
-//    &__menu {
-//      display: block;
-//
-//      ul {
-//        margin: 0;
-//
-//        li {
-//          list-style: none;
-//          list-style-type: none;
-//        }
-//      }
-//    }
-//  }
-//}
-//
-////.grid-container{
-////  width:500px;
-////}
-//
-//
-//.top-header{
-//  background-color: darkred;
-//  font-size : 30px;
-//  width: auto;
-//
-//  .logo{
-//    width : 150px;
-//        height : 150px;
-//    padding-top: 30px;
-//    padding-bottom: 25px;
-//    padding-left: 25px;
-//  }
-//}
-//
-////.top-header-right{
-////  width : auto;
-////  background-color: darkred;
-////}
-
-
 .header {
   padding: 15px 0;
 
   a {
-    color: black;
-    font-size: 13px;
+    //color: black;
+    //font-size: 13px;
+
   }
 
   .header__button {
-    //width: 100px;
-    //max-width: 100%;
+
     margin-bottom: 0;
     color: black;
-    border-color: black;
+    border-color: #0071bb;
+    border-radius: 5px;
+    font-size: 8pt;
+
+    &:hover {
+      border-color: #e6822b;
+      color: #e6822b;
+    }
+
   }
 
   &__logo {
+
+    a {
+      display: inline-block;
+    }
+
     img {
       width: 130px;
       max-width: 100%;
     }
   }
 
-  @include breakpoint(medium) {
+  &__my-account {
+    text-align: right;
+    font-size: 8pt;
+
     a {
-      color: black;
-      font-size: 20px;
+      &:hover {
+        color: #e6822b;
+      }
     }
-    &__button {
+  }
+
+  @include breakpoint(medium) {
+
+
+    .header__button {
       width: 130px;
-      color: black;
+      font-size: 12pt;
+
     }
     &__logo {
-    
+
       text-align: center;
+
       img {
         width: 80%;
       }
     }
 
-    &__my-account{
+    &__my-account {
       text-align: right;
-      }
+      font-size: 12pt;
+
+
     }
   }
+}
 
 

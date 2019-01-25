@@ -73,8 +73,9 @@ $global-font-size: 100%;
 $global-width: rem-calc(1200);
 $global-lineheight: 1.5;
 $foundation-palette: (
-    primary: #ffffff,
-    secondary: #e6822b,
+    primary:#47525d,
+       // primary: #0071bb,
+    secondary: #47525d,
     success: #3adb76,
     warning: #ffae00,
     alert: #cc4b37,
@@ -97,7 +98,7 @@ $peo-white: #ffffff;
 $venues-place-font: #575757;
 $body-background: $peo-white;
 $body-font-color: #676767;
-$body-font-family: 'Roboto', sans-serif;;
+$body-font-family: 'Arial-reguler';
 $body-antialiased: true;
 $global-margin: 1rem;
 $global-padding: 1rem;
@@ -145,7 +146,7 @@ $block-grid-max: 8;
 // 4. Base Typography
 // ------------------
 
-$header-font-family: $body-font-family;
+$header-font-family: 'Arial-bold';
 $header-font-weight: 700;
 $header-font-style: normal;
 $font-family-monospace: Consolas, 'Liberation Mono', Courier, monospace;
@@ -161,7 +162,7 @@ $header-styles: (
         'h5': ('font-size': 17),
         'h6': ('font-size': 16),
     ),
-    medium: (
+    large: (
         'h1': ('font-size': 48),
         'h2': ('font-size': 40),
         'h3': ('font-size': 26),

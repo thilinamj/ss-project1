@@ -31,7 +31,8 @@
         "expose": [
             "themes/sample-site/static/dist",
             "themes/sample-site/static/images",
-            "themes/sample-site/static/js"
+            "themes/sample-site/static/js",
+            "themes/sample-site/static/fonts"
         ]
 
 

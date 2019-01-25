@@ -9,7 +9,6 @@
     <% include CriticalCSS %>
     <% include Favicon %>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,700,900" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="$resourceURL('themes/sample-site/static/dist/typehead.css')">
     <link rel="stylesheet" type="text/css" href="$resourceURL('themes/sample-site/static/dist/app.min.css')">
 </head>

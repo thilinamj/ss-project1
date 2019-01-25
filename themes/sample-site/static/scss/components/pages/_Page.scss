@@ -84,7 +84,7 @@
 
   background-color: #e6822b;
   width: 100%;
-  border-radius: 8px;
+  border-radius: 5px;
 
 }
 
@@ -96,6 +96,9 @@
   &__text {
     width: 80%;
     background-color: transparent;
+    border-radius: 5pt;
+    font-size: 9pt;
+
 
 
   }
@@ -103,7 +106,8 @@
   &__signup-button {
     background-color: #e6822b;
     width: 100%;
-    border-radius: 8px;
+    border-radius: 5px;
+    font-size: 9pt;
   }
 
 
@@ -112,18 +116,19 @@
 
     p.text {
       color: white;
-      font-size: 18px;
+     // font-size: 18px;
     }
 
     p.terms-section {
       color: white;
-      font-size: 10px;
+     font-size: 7px;
 
 
     }
 
     .termlink {
       text-decoration: underline;
+      color: white;
 
     }
 
@@ -132,6 +137,14 @@
 
 
   @include breakpoint(medium) {
+   padding-top: 10px;
+    padding-bottom: 10px;
+    p.text {
+
+      font-size: 14pt;
+    }
+
+
     &__section {
       p.terms-section {
         color: white;
@@ -158,9 +171,14 @@
   .top-bar__link{
     color: #0071bb;
     text-decoration: underline;
+
   }
 
+
+
   @include breakpoint(medium) {
+
+
 
     h1 {
       font-size: 24pt;
@@ -171,6 +189,8 @@
 //middle -block section style-------------------------------------------------------------------------------
 
 .middle-block {
+  padding-top: 40px;
+  padding-bottom: 60px;
   align-items: center;
   text-align: center;
 
