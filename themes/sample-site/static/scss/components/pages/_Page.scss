@@ -168,15 +168,26 @@
   margin-bottom: -30px;
   text-align: center;
 
-  .top-bar__link{
+
+  .top-block__link{
     color: #0071bb;
     text-decoration: underline;
+
 
   }
 
 
 
   @include breakpoint(medium) {
+
+   p{
+     padding-left: 200px;
+     padding-right: 200px;
+   }
+    ul{
+      padding-left: 100px;
+      padding-right:100px;
+    }
 
 
 
@@ -199,6 +210,8 @@
 //bottom-block section style-------------------------------------------------------------------------------
 
 .bottom-block{
+  padding-top: 50px;
+  padding-bottom: 20px;
   background-color: #0071bb;
   text-align: center;
 
@@ -207,7 +220,7 @@
     font-family: Arial;
     color: #ffffff;
     font-size: 26.5pt;
-    padding-top: 50px;
+
 
 
   }
@@ -224,5 +237,16 @@
     border-radius: 8px;
     width:200px;
   }
+
+  @include breakpoint(medium) {
+p{
+
+
+    padding-left:200px;
+    padding-right:200px;
+}
+  }
+
+
 
 }

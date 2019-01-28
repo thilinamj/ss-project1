@@ -27,7 +27,7 @@
   &__text {
     text-align: left;
     padding-right: 10px;
-    margin-bottom: -29px;
+
 
     h2 {
       color: #ffffff;
@@ -76,12 +76,12 @@
 
     max-width: 200px;
 
-    select {
+        select {
       max-width: 200px;
       width: 100%;
       background: transparent;
       border: 1px solid $white;
-      color: black;
+      color: white;
       cursor: pointer;
     }
 
@@ -94,6 +94,11 @@
       color: $white;
 
     }
+    option{
+      background-color:#0071bb;
+    }
+
+
   }
 
   @include breakpoint(medium) {

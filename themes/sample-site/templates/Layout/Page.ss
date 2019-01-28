@@ -12,7 +12,7 @@
                 <h5>— All for free.</h5>
                 <div class="hero__dropdown">
                     <select>
-                        <option value="volvo">Volvo</option>
+                        <option disabled selected value hidden="true">Find out more</option>
                         <option value="saab">Saab</option>
                         <option value="mercedes">Mercedes</option>
                         <option value="audi">Audi</option>
@@ -55,9 +55,9 @@
             pellentesque quis risus sit amet, accumsan rhoncus elit. </p>
         <ul class="vertical menu accordion-menu" data-accordion-menu>
             <li>
-                <a href="#" class="top-bar__link"> More </a>
+                <a href="#" class="top-block__link"> More </a>
                 <ul class="menu vertical nested">
-                    <li>ffhfufuyhkuigfyfu gugu hugj giu gi uh fghebvfje fbejfbej bjsc dwvjb
+                    <li> ffhfufuyhkuigfyfu gugu hugj giu gi uh fghebvfje fbejfbej bjsc dwvjb
                         vjnkjdhvkjvjbvjduvbjd bwijb  vdhvwsj dbwubjdjsfgey feufgef cbufg cvyegf vwfuwcvdfuywv
                     </li>
                 </ul>
@@ -100,7 +100,7 @@
 <section class=" bottom-block">
     <div class="grid-container">
         <h1>Get early access to free <br> TV & Movies.</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque egestas in ligula a luctus. In<br>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque egestas in ligula a luctus. In
             ante ante, pellentesque quis risus sit amet, accumsan rhoncus elit. </p>
         <a href="#" class="button bottom-block__signup">Sign me up</a>
     </div>

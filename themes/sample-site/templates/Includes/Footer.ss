@@ -2,11 +2,11 @@
     <div class="grid-container">
         <div class="grid-x">
             <div class="cell small-6 large-6 medium-6 ">
-                <div class="footer__text">
-                    <a href="#">Home</a>
-                    <a href="#">My Account</a>
-                    <a href="#">Terms and Conditions</a>
-                </div>
+                <ul class="footer__text">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">My Account</a></li>
+                    <li><a href="#">Terms and Conditions</a></li>
+                </ul>
                 <div class="footer__logo">
                     <div class="logo">
                         <i class="fab fa-facebook-square"></i>

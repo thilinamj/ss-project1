@@ -4,8 +4,12 @@
 
   &__text {
     text-align: left;
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
 
-    a {
+
+    li {
       color: black;
       display: grid;
       //margin-right: 10px;
@@ -22,7 +26,7 @@
 
     .logo {
       display: inline-block;
-      margin-left: 9px;
+      margin-right: 18px;
     }
 
   }
@@ -42,16 +46,18 @@
   @include breakpoint(medium) {
 
     &__text {
-      a {
-        display: inline-block;
-        margin-right: 10px;
-        // font-size: 15px;
-      }
+
+      display: inline-flex;
+    li{
+      margin-right: 15px;
+    }
+
     }
 
     &__logo {
       font-size: 15px;
       text-align: left;
+
     }
 
     &__right-text {
