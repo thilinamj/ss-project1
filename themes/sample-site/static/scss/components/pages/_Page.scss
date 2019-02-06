@@ -1,92 +1,3 @@
-//.front-page{
-//  background-image: url("/themes/sample-site/static/images/cms/mg.jpeg");
-//}
-//
-//
-//body {
-//  background-image:url("/themes/sample-site/static/images/cms/mg.jpeg");
-//  color: #000;
-//  padding: 0;
-//  margin: 0;
-//  //font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-//  //font-weight: normal;
-//  //font-style: normal;
-//  //line-height: 1;
-//  position: relative;
-//  cursor: default;
-//}
-
-//.grid2{
-////  background-color: #0071bb;
-////  padding-top: 10px;
-////}
-////
-////.grid3{
-////  background-color: #ffffff;
-////  text-align: center;
-////}
-////
-////.grid5{
-////  background-color: #0071bb;
-////  text-align: center;
-////  color:white;
-////}
-
-
-//$hero-height: 60vh;
-//
-//.hero {
-//  background-image: url("/themes/sample-site/static/images/cms/hero/hero1.jpg");
-//  background-size: cover;
-//  height: $hero-height;
-//  display: flex;
-//  justify-content: center;
-//
-//
-//  .hero-section-text {
-//    color: $white;
-//    text-shadow: 1px 1px 2px $black;
-//  }
-//
-//
-//  &_end {
-//    background-color: #0071bb;
-//
-//    p {
-//      color: #ffffff;
-//      font-family: Arial Regular;
-//
-//    }
-//
-//    a {
-//      color: #ffffff;
-//    }
-//
-//    .button.hollow {
-//      border-color: #ffffff;
-//      color:#ffffff;
-//      font-family: Arial Regular;
-//    }
-//
-//  }
-//
-//.signmeup_button{
-//  color: #ffffff;
-//  background-color: #e6822b;
-//  font-family: Arial Regular;
-//}
-//
-//}
-
-
-
-.signup{
-
-  background-color: #e6822b;
-  width: 100%;
-  border-radius: 5px;
-
-}
 
 .contact {
   min-hight: 20px;
@@ -94,11 +5,15 @@
 
 
   &__text {
-    width: 80%;
+    width: 100%;
     background-color: transparent;
     border-radius: 5pt;
-    font-size: 9pt;
+    font-size: 12pt;
+    font-size: 12pt;
+    letter-spacing: 0.06em;
+    padding-top: 23px;
 
+    padding-bottom: 25px;
 
 
   }
@@ -107,7 +22,13 @@
     background-color: #e6822b;
     width: 100%;
     border-radius: 5px;
-    font-size: 9pt;
+    font-size: 12pt;
+    height: 46px;
+    font-weight: 600;
+
+    button {
+      padding-top: 100px;
+    }
   }
 
 
@@ -116,12 +37,12 @@
 
     p.text {
       color: white;
-     // font-size: 18px;
+      // font-size: 18px;
     }
 
     p.terms-section {
       color: white;
-     font-size: 7px;
+      font-size: 15px;
 
 
     }
@@ -137,11 +58,18 @@
 
 
   @include breakpoint(medium) {
-   padding-top: 10px;
+    padding-top: 10px;
     padding-bottom: 10px;
+
+    &__text {
+      width: 80%;
+    }
+
+
     p.text {
 
-      font-size: 14pt;
+      font-size: 17pt;
+      letter-spacing: 0.02em;
     }
 
 
@@ -150,49 +78,41 @@
         color: white;
         font-size: 14px;
 
-
       }
-
     }
   }
 
 }
 
-
 //top-block section style-------------------------------------------------------------------------------
 
 
-
 .top-block {
-  margin-top: 30px;
+  margin-top: 62px;
   margin-bottom: -30px;
   text-align: center;
 
+  &__link {
+    color: #0071bb !important;
+    text-decoration: underline !important;
+    font-weight: 700;
+    font-size: 18px;
+    display: inline-block !important;
 
-  .top-block__link{
-    color: #0071bb;
-    text-decoration: underline;
-
-
+    &:after {
+      right: 0 !important;
+    }
   }
-
-
 
   @include breakpoint(medium) {
 
-   p{
-     padding-left: 200px;
-     padding-right: 200px;
-   }
-    ul{
+    ul {
       padding-left: 100px;
-      padding-right:100px;
+      padding-right: 100px;
     }
 
-
-
     h1 {
-      font-size: 24pt;
+      font-size: 36pt;
     }
   }
 }
@@ -200,16 +120,24 @@
 //middle -block section style-------------------------------------------------------------------------------
 
 .middle-block {
-  padding-top: 40px;
+  padding-top: 63px;
   padding-bottom: 60px;
   align-items: center;
   text-align: center;
+
+  p {
+    padding: 0 55px
+  }
+
+  h4 {
+    margin: -7px -2px 7px 0;
+  }
 
 }
 
 //bottom-block section style-------------------------------------------------------------------------------
 
-.bottom-block{
+.bottom-block {
   padding-top: 50px;
   padding-bottom: 20px;
   background-color: #0071bb;
@@ -219,8 +147,7 @@
   h1 {
     font-family: Arial;
     color: #ffffff;
-    font-size: 26.5pt;
-
+    letter-spacing: 0.07em;
 
 
   }
@@ -229,24 +156,29 @@
     //font-family: Arial bold;
     color: #ffffff;
     //font-size: 15pt;
+    margin-bottom: 42px;
   }
 
 
-  &__signup{
+  &__signup {
     background-color: #e6822b;
     border-radius: 8px;
-    width:200px;
+    width: 35%;
+    font-stretch: 100%;
+    height: 48px;
+
   }
 
   @include breakpoint(medium) {
-p{
+    p {
+      padding-left: 200px;
+      padding-right: 200px;
+    }
 
-
-    padding-left:200px;
-    padding-right:200px;
-}
+    h1 {
+      font-size: 42px;
+    }
   }
-
 
 
 }

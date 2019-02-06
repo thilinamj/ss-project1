@@ -1,6 +1,7 @@
 .footer {
-  font-size: 8pt;
-  padding-top: 15px;
+  font-size: 10pt;
+  padding-top: 35px;
+  padding-bottom: 35px;
 
   &__text {
     text-align: left;
@@ -22,17 +23,23 @@
 
   &__logo {
     font-size: 20px;
-    text-align: left;
+    text-align: center;
 
     .logo {
       display: inline-block;
-      margin-right: 18px;
+      margin-right: 10px;
     }
 
   }
 
   &__right-text {
-    text-align: right;
+    padding-top: 10px;
+    text-align: center;
+
+
+    p{
+      margin-bottom: 0;
+    }
 
   }
 
@@ -49,14 +56,16 @@
 
       display: inline-flex;
     li{
-      margin-right: 15px;
+      margin-right: 21px;
+      font-size: 16px;
     }
 
     }
 
     &__logo {
-      font-size: 15px;
+      font-size: 30px;
       text-align: left;
+      margin-right: 20px;
 
     }
 
@@ -65,7 +74,11 @@
 
       p {
         display: inline-block;
-        margin-left: 20px;
+        font-size: 16px;
+        margin-right: 10px
+      }
+      p1{
+       padding-left: 10px;
       }
     }
   }

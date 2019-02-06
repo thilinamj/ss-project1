@@ -70,7 +70,7 @@
 // ---------
 
 $global-font-size: 100%;
-$global-width: rem-calc(1200);
+$global-width: rem-calc(1260);
 $global-lineheight: 1.5;
 $foundation-palette: (
     primary:#47525d,
@@ -98,7 +98,7 @@ $peo-white: #ffffff;
 $venues-place-font: #575757;
 $body-background: $peo-white;
 $body-font-color: #676767;
-$body-font-family: 'Arial-reguler';
+$body-font-family: 'Arial';
 $body-antialiased: true;
 $global-margin: 1rem;
 $global-padding: 1rem;
@@ -256,7 +256,7 @@ $accordionmenu-padding: $global-menu-padding;
 $accordionmenu-nested-margin: $global-menu-nested-margin;
 $accordionmenu-submenu-padding: $accordionmenu-padding;
 $accordionmenu-arrows: true;
-$accordionmenu-arrow-color: $white;
+$accordionmenu-arrow-color: #0071bb;
 $accordionmenu-item-background: null;
 $accordionmenu-border: null;
 $accordionmenu-submenu-toggle-background: null;
@@ -264,6 +264,7 @@ $accordion-submenu-toggle-border: $accordionmenu-border;
 $accordionmenu-submenu-toggle-width: 40px;
 $accordionmenu-submenu-toggle-height: $accordionmenu-submenu-toggle-width;
 $accordionmenu-arrow-size: 6px;
+
 
 // 9. Badge
 // --------
@@ -294,7 +295,7 @@ $breadcrumbs-item-separator-color: $medium-gray;
 // 11. Button
 // ----------
 
-$button-font-family: inherit;
+$button-font-family: Arial ;
 $button-padding: 10px 15px; // 0.85em 1em;
 $button-margin: 0 0 $global-margin 0;
 $button-fill: solid;
@@ -303,10 +304,10 @@ $button-background-hover: scale-color($button-background, $lightness: -15%);
 $button-color: $white;
 $button-color-alt: $black;
 $button-radius: $global-radius;
-$button-hollow-border-width: 2px;
+$button-hollow-border-width: 1px;
 $button-sizes: (
     tiny: 0.6rem,
-    small: 0.75rem,
+    small: 0.8rem,
     default: 0.9rem,
     large: 1rem,
 );
@@ -446,7 +447,7 @@ $select-triangle-color: $dark-gray;
 $select-radius: $global-radius;
 $input-color: $black;
 $input-placeholder-color: $medium-gray;
-$input-font-family: inherit;
+$input-font-family: arial;
 $input-font-size: rem-calc(16);
 $input-font-weight: $global-weight-normal;
 $input-line-height: $global-lineheight;

@@ -3,6 +3,8 @@
   position: relative;
   min-height: 500px;
   overflow: hidden;
+  padding-bottom: 50px;
+  padding-top: 50px;
 
   &__image {
     position: absolute;
@@ -28,24 +30,25 @@
     text-align: left;
     padding-right: 10px;
 
-
     h2 {
       color: #ffffff;
-
-
+      font-family: Arial;
+      margin-bottom: 26px;
     }
 
-    p {
-
+    h3 {
       color: #ffffff;
-
+      font-family: Arial Regular;
+      font-weight: 100;
+      margin-bottom: 8px;
     }
 
-    h5 {
-      //font-family: Arial;
+    h4 {
+      font-family: Arial Regular;
       color: #ffffff;
       text-transform: uppercase;
-
+      font-weight: 100;
+      margin-bottom: 30px;;
     }
   }
 
@@ -73,62 +76,59 @@
 
   &__dropdown {
     position: relative;
-
     max-width: 200px;
 
-        select {
-      max-width: 200px;
+    select {
+      max-width: 184px;
       width: 100%;
       background: transparent;
       border: 1px solid $white;
       color: white;
       cursor: pointer;
+      border-radius: 5px;
     }
 
     &:before {
       content: 'ν';
       position: absolute;
       top: 7px;
-      right:10px;
+      right: 40px;
       display: block;
       color: $white;
-
-    }
-    option{
-      background-color:#0071bb;
     }
 
-
+    option {
+      background-color: #0071bb;
+    }
   }
 
   @include breakpoint(medium) {
-    min-height: 600px;
+    min-height: 700px;
 
     .wrapper {
-      min-height: 600px;
+      min-height: 700px;
     }
-
     &__text {
       text-align: left;
 
-
       h2 {
-        font-family: Arial;
         color: #ffffff;
-        max-width: 424px;
+        letter-spacing: 0.06em;
+      }
 
+      h3 {
+        letter-spacing: 0.07em
       }
 
       p {
-        font-family: Arial Regular;
         color: #ffffff;
-
       }
 
-      h5 {
-        font-family: Arial;
+      h4 {
         color: #ffffff;
-
+        font-size: 27px;
+        letter-spacing: 0.06em;
+        margin-left: 5px
       }
     }
   }
